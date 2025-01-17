@@ -1,0 +1,59 @@
+Detalles del análisis:
+Reseña 1:
+
+Resumen: La persona está satisfecha con el rendimiento del producto y la facilidad de limpieza, pero menciona problemas específicos con el rack.
+Sentimiento: Positivo, ya que las experiencias positivas superan las negativas.
+Reseña 2:
+
+Resumen: Aunque funciona bien inicialmente, el diseño defectuoso del mango lleva a una experiencia negativa.
+Sentimiento: Negativo, debido a un problema grave que inutiliza el producto.
+Reseña 3:
+
+Resumen: La persona tiene dificultades iniciales para usarlo, pero destaca la calidad de ciertos resultados y la estética.
+Sentimiento: Neutral, ya que las opiniones positivas y negativas están equilibradas.
+
+JSON
+
+[
+  {
+    "review_id": 1,
+    "summary": "Buen rendimiento y limpieza fácil, aunque el rack es difícil de limpiar.",
+    "strengths": [
+      "Funciona muy bien",
+      "Fácil de usar",
+      "La cesta es fácil de limpiar"
+    ],
+    "weaknesses": [
+      "El rack es difícil de limpiar por las hendiduras",
+      "El rack puede caerse al volcar alimentos"
+    ],
+    "sentiment": "positivo"
+  },
+  {
+    "review_id": 2,
+    "summary": "La funcionalidad es buena, pero el mango se rompe fácilmente.",
+    "strengths": [
+      "Funciona correctamente al inicio"
+    ],
+    "weaknesses": [
+      "El mango se rompe fácilmente debido al diseño con pocas fijaciones",
+      "Material de plástico en lugar de metal para el mango"
+    ],
+    "sentiment": "negativo"
+  },
+  {
+    "review_id": 3,
+    "summary": "Difícil de usar para novatos, pero los resultados son buenos.",
+    "strengths": [
+      "Fácil de usar",
+      "Estética atractiva en la cocina",
+      "Los alimentos, como los tater tots, salen perfectos"
+    ],
+    "weaknesses": [
+      "Botón de mariscos confuso",
+      "Difícil de juzgar tiempos de cocción",
+      "Cocción desigual en piezas como las patas de pollo"
+    ],
+    "sentiment": "neutral"
+  }
+]

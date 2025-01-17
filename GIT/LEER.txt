@@ -1,0 +1,41 @@
+INSTALACION DE GIT 
+
+https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos
+
+REALIZAR UN READMI
+
+https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github
+
+ACCESO TOKENS
+
+https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+
+CLONAR REPOSITORIO
+
+https://www.atlassian.com/es/git/tutorials/setting-up-a-repository/git-clone
+
+https://git-scm.com/docs/git-clone
+
+LISTA DE FORMATOS
+
+https://devhints.io/git-log-format
+
+OPEN SOURCE
+
+https://www.aluracursos.com/blog/open-source-una-breve-introduccion
+
+INICIAR UN REPOSITORIO
+
+https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+
+CREANDO REPOSITORIO
+
+https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github?utm_source=gnarus&utm_medium=timeline
+
+CLONANDO REPOSITORIO
+
+https://www.aluracursos.com/blog/clonando-un-repositorio-remoto?utm_source=gnarus&utm_medium=timeline
+
+EVITANDO RRORES EN GIT 
+
+https://www.aluracursos.com/blog/como-evitar-errores-en-git

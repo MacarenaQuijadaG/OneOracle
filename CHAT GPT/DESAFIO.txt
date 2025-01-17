@@ -1,0 +1,7 @@
+Prompt 1:
+Pregunta: ¿Cuáles son los efectos del cambio climático en los ecosistemas marinos?
+Prompt de conclusión: "Los efectos del cambio climático en los ecosistemas marinos incluyen el aumento de la temperatura del agua, lo que afecta la biodiversidad, los patrones migratorios de las especies marinas y los ciclos de vida. Además, la acidificación del océano, causada por mayores niveles de dióxido de carbono, altera los ecosistemas de coral y reduce la disponibilidad de calcio para organismos como moluscos y crustáceos. También se observan cambios en las corrientes oceánicas y en la distribución de nutrientes..."
+
+Prompt 2:
+Pregunta: ¿Cómo han influido las redes sociales en la participación ciudadana?
+Prompt de conclusión: "Las redes sociales han transformado la participación ciudadana al proporcionar plataformas accesibles para el intercambio de ideas y la organización de movimientos sociales. Estas herramientas permiten a los ciudadanos difundir información rápidamente, aumentar la conciencia sobre temas importantes y movilizarse para acciones colectivas como protestas o peticiones en línea. Sin embargo, también han generado desafíos, como la propagación de desinformación y la polarización del discurso público..."

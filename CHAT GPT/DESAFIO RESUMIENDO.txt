@@ -1,0 +1,111 @@
+Resumen:
+
+Python es un lenguaje de programación interpretado de alto nivel, conocido por su legibilidad y versatilidad, utilizado en diversas aplicaciones como Instagram y Netflix. Es multiparadigma, dinámico y multiplataforma, administrado por la Python Software Foundation bajo una licencia de código abierto. Es uno de los lenguajes más populares del mundo.
+
+Historia
+Creado por Guido van Rossum en los años 80 en los Países Bajos, como sucesor del lenguaje ABC, con mejoras como manejo de excepciones e interacción con sistemas operativos.
+Nombrado por la afición de su creador a los humoristas Monty Python.
+En 1991, se lanzó la versión 0.9.0 con características como herencia, excepciones y tipos modulares (str, list, dict).
+En 1994, Python alcanzó su versión 1.0 con herramientas funcionales como lambda, reduce, filter, y map.
+En 2000, el equipo de desarrollo se unió a BeOpen PythonLabs y lanzó Python 2.0, que introdujo listas por comprensión y recolección de basura.
+Contribuciones y evolución
+Python se volvió compatible con la licencia GPL para ampliar su uso en software libre.
+Su facilidad de uso y enfoque en la claridad sintáctica lo hacen ideal para principiantes y expertos, con iniciativas como CP4E que buscaban democratizar la programación.
+
+Filosofía 
+
+La filosofía de Python, influenciada por principios similares a los de Unix, promueve un código limpio, legible y directo. Se conoce como "pythónico" a aquel código que sigue estos principios, los cuales fueron formulados por Tim Peters en El Zen de Python. Los principios clave incluyen:
+
+La belleza es preferida sobre lo feo.
+La claridad es preferida sobre la ambigüedad.
+La simplicidad es mejor que la complejidad, y la complejidad debe evitarse.
+La legibilidad es esencial.
+Los errores no deben ser ignorados.
+Es preferible una solución obvia y única, aunque no siempre sea evidente al principio.
+La implementación debe ser fácil de explicar.
+Los espacios de nombres (namespaces) son valiosos y deben ser aprovechados.
+
+Desde la versión 2.1.2, los usuarios pueden acceder a estos principios al ejecutar import this.
+
+Tipos de Datos en Python
+Los tipos de datos básicos en Python incluyen:
+
+str: Cadena de texto (inmutable). Ejemplo: 'Cadena'
+bytes: Vector de bytes (inmutable). Ejemplo: b'Cadena'
+list: Secuencia mutable que puede contener objetos. Ejemplo: [4.0, 'Cadena', True]
+tuple: Secuencia inmutable. Ejemplo: (4.0, 'Cadena', True)
+set: Conjunto mutable sin orden. Ejemplo: {4.0, 'Cadena', True}
+frozenset: Conjunto inmutable. Ejemplo: frozenset([4.0, 'Cadena', True])
+dict: Diccionario de pares clave-valor. Ejemplo: {'key1': 1.0, 'key2': False}
+int: Número entero de precisión arbitraria. Ejemplo: 42
+float: Número decimal de doble precisión. Ejemplo: 3.1415927
+complex: Número complejo. Ejemplo: (4.5 + 3j)
+bool: Valor booleano (True o False).
+Mutable: El contenido puede cambiar en tiempo de ejecución.
+Inmutable: El contenido no puede cambiar en tiempo de ejecución.
+
+Condicionales
+Las sentencias condicionales ejecutan un bloque de código si se cumple una condición. Usan if, elif (condiciones adicionales), y else (bloque final). Ejemplo:
+
+python
+Copiar
+Editar
+verdadero = True
+if verdadero:
+    print("Verdadero")
+else:
+    print("Falso")
+También se pueden combinar condiciones con and:
+
+
+if verdadero and lenguaje == "Python":
+    print("Verdadero y Lenguaje de programación: Python")
+Bucle for
+El bucle for recorre un iterable y ejecuta un bloque de código para cada elemento. Ejemplo:
+
+
+
+lista = ["a", "b", "c"]
+for i in lista:
+    print(i)
+Bucle while
+El bucle while ejecuta un bloque de código mientras una condición sea verdadera. Ejemplo:
+
+
+
+numero = 0
+while numero < 10:
+    print(numero, end=" ")
+    numero += 1
+
+Listas y Tuplas:
+- Listas: Son mutables y se definen con corchetes []. Puedes modificar, añadir o eliminar elementos.
+- Tuplas: Son inmutables y se definen con paréntesis (). Una vez creadas, no puedes modificar su contenido.
+- Acceso: Ambas se indexan de forma similar, usando índices positivos o negativos.
+Diccionarios:
+- Se definen con llaves {} y contienen pares clave:valor.
+- Son mutables y las claves deben ser inmutables.
+- Se puede acceder a los valores utilizando las claves.
+- Sentencia match-case (desde Python 3.10):
+- Permite comparar una variable con múltiples condiciones y realizar acciones específicas.
+- Es más potente que if-elif-else, ya que permite realizar comprobaciones de tipo y desempaquetado de secuencias de datos.
+Bucles:
+- for: Itera sobre objetos iterables, como listas o cadenas.
+- while: Ejecuta un bloque de código mientras una condición sea verdadera.
+Conjuntos:
+- Los conjuntos eliminan duplicados y no mantienen el orden.
+- Permiten realizar operaciones matemáticas como intersección, unión, diferencia y diferencia simétrica.
+- Se definen con set() y los conjuntos inmutables con frozenset().
+
+Listas por comprensión: Es una forma compacta de crear listas, como en el ejemplo [(i, i + 2) for i in range(5)], que genera pares de números.
+
+Funciones:
+
+Funciones normales: Se definen con def, y pueden tener parámetros predeterminados, como suma(x, y=2).
+*args: Permite pasar un número variable de argumentos posicionales, como en la función suma(*args) que suma todos los argumentos proporcionados.
+**kwargs: Permite pasar un número variable de argumentos con nombre, como en la función suma(**kwargs) que suma los valores de los argumentos.
+lambda: Una forma más compacta de definir funciones pequeñas y sin nombre, como lambda x, y=2: x + y.
+Clases:
+
+Se definen con la palabra clave class. Dentro de ellas, __init__ es el método especial que se ejecuta al instanciar la clase. Los atributos se definen usando self, como en self.nombre = nombre.
+En el ejemplo de la clase Persona, se muestra cómo instanciar un objeto y modificar su atributo a través de métodos.

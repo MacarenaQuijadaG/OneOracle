@@ -1,0 +1,8 @@
+Prompt:
+"Estoy considerando una inversión de $6,500.00 en una aplicación de renta fija que ofrece una tasa de interés simple del 1% mensual durante 12 meses. Por favor:
+
+1.- Explica cómo funciona la fórmula de interés simple.
+2.- Identifica las variables involucradas en mi situación y sus valores.
+3.- Calcula el monto total de los intereses que recibiré al final del período.
+4.- Calcula el valor final de mi inversión, incluyendo el capital y los intereses acumulados.
+Por favor, proporciona una respuesta clara y bien estructurada."
