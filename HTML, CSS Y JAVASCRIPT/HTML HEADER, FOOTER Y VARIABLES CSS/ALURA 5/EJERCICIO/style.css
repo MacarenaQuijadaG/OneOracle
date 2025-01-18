@@ -1,0 +1,103 @@
+/* Reseteamos márgenes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 {
+    color: #6a1b9a;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.imagen-regalo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.enlaces ul {
+    list-style-type: none;
+}
+
+.enlaces a {
+    color: #6a1b9a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.enlaces a:hover {
+    color: #8e24aa;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.favoritos ul {
+    list-style-type: none;
+}
+
+.favoritos a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+.favoritos a:hover {
+    color: #8e24aa;
+}

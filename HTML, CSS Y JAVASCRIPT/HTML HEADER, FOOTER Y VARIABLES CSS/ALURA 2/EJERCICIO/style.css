@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.portafolio {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del nombre */
+.nombre {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0 0 15px 0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.nombre:hover {
+    color: #007BFF; /* Azul llamativo */
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+/* Estilo de la descripción */
+.descripcion {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Estilo del enlace */
+.redes-sociales {
+    display: inline-block;
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.redes-sociales:hover {
+    background-color: #007BFF;
+    color: #fff;
+    transform: translateY(-3px); 
+}

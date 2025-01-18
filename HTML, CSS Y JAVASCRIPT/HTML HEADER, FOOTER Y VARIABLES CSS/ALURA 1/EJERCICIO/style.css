@@ -1,0 +1,35 @@
+/* Estilo del contenedor de los enlaces */
+.presentacion__enlaces {
+    display: flex;
+    flex-direction: column; /* Dirección vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 32px; /* Añade espacio entre los elementos */
+    margin-top: 50px; /* Espaciado superior */
+}
+
+/* Estilo del subtítulo */
+.presentacion__enlaces__subtitulo {
+    font-family: sans-serif; /* Fuente sin comillas */
+    font-weight: 400; /* Peso de fuente */
+    font-size: 24px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo de los enlaces (botones) */
+.presentacion__enlaces__link {
+    background-color: transparent; /* Elimina el fondo cian */
+    color: #F6F6F6; /* Texto blanco */
+    border: 2px solid #22D4FD; /* Borde cian */
+    width: 378px; /* Ancho de los botones */
+    border-radius: 8px; /* Esquinas menos redondeadas */
+    padding: 10px; /* Espaciado interno de los botones */
+    text-align: center; /* Centra el texto dentro del botón */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    transition: all 0.3s ease; /* Transición para hover */
+}
+
+/* Efecto al pasar el mouse sobre el enlace */
+.presentacion__enlaces__link:hover {
+    background-color: #22D4FD; /* Fondo cian al pasar el mouse */
+    color: #333; /* Cambia el color del texto */
+}

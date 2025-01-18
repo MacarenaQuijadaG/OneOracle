@@ -1,0 +1,63 @@
+/* Definimos las variables globales para los colores y otros estilos */
+:root {
+    --color-primario: #6A1B9A; /* Color Primario */
+    --color-secundario: #8E24AA; /* Color Secundario */
+    --color-fondo: #F3E5F5; /* Color de Fondo */
+    --color-texto: #212121; /* Color de Texto */
+    --tamano-de-la-fuente: 24px; /* Tamaño de la Fuente */
+    --fuente-principal: 'Arial', sans-serif; /* Fuente Principal */
+    --peso-fuente: 400; /* Peso de la fuente */
+}
+
+/* Estilos generales para el body */
+body {
+    font-size: var(--tamano-de-la-fuente); /* Aplicamos la variable para el tamaño de fuente */
+    background-color: var(--color-fondo); /* Usamos la variable para el fondo */
+    color: var(--color-texto); /* Usamos la variable para el color del texto */
+    font-family: var(--fuente-principal); /* Usamos la fuente principal */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-primario); /* Usamos la variable para el color de fondo */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: var(--peso-fuente); /* Usamos la variable para el peso de la fuente */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+    font-size: var(--tamano-de-la-fuente); /* Aplicamos el tamaño de fuente */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: var(--color-secundario); /* Usamos la variable para los enlaces */
+    text-decoration: none;
+    font-weight: var(--peso-fuente);
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-primario); /* Usamos el color primario */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Cambiar los colores de los enlaces cuando el ratón pase por encima */
+a:hover {
+    color: var(--color-primario); /* Cambia al color primario */
+}
