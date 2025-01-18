@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Estilos del perfil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid white;
+}
+
+main {
+    padding: 40px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 2rem;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

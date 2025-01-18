@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+
+.titulo-destaque {
+    color: #22D4FD; ;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+}
+
+/*
+IMPORTACION DE FUENTES 
+https://developers.google.com/fonts/docs/getting_started?hl=es-419
+*/

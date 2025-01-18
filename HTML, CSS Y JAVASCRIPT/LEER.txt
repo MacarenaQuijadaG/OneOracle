@@ -5,3 +5,75 @@ https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias
 CENTRAR UN ELEMENTO CON CSS
 
 https://www.aluracursos.com/blog/centrar-un-elemento-con-css
+
+TAGS
+
+https://www.w3schools.com/tags/
+
+CONCEPTOS BASICOS 
+
+https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content
+
+ESTRUCTURA  HTML
+
+https://htmldog.com/guides/html/beginner/
+
+ACCESIBILIDAD WEB
+
+https://webaim.org/intro/
+
+MODO QUIRKS
+
+https://developer.mozilla.org/es/docs/Web/HTML/Quirks_Mode_and_Standards_Mode
+
+EXTENCIONES VISUAL CODE 
+
+https://code.visualstudio.com/docs/editor/extension-marketplace
+
+LIVE SERVER
+
+https://github.com/ritwickdey/vscode-live-server
+
+UX FUNDAMENTOS 
+
+https://www.interaction-design.org/literature/topics/ux-design
+
+CONCEJOS DE CSS
+
+https://css-tricks.com/guides/
+
+GUIA DE ESTRUCTURACION EN HTML
+
+https://developer.mozilla.org/es/docs/Web/HTML/Element
+
+EMMET
+
+https://css-tricks.com/emmet/
+
+INTRODUCCION A HTML 5
+
+https://html.com/html5/
+
+ETIQUETAS 
+
+https://www.w3schools.com/html/html_links.asp
+
+INSERTAR IMG EN HTML
+
+https://developer.mozilla.org/es/docs/Web/HTML/Element/img
+
+PRACTICAS PARA EL DISEÑO
+
+https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
+
+INTRODUCCION AL CSS
+
+https://www.w3schools.com/css/
+
+HOPJAS DE CASCADA
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+GUIAS DE COLORES Y CSS
+
+https://color.adobe.com/es/create/color-wheel

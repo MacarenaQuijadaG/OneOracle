@@ -1,0 +1,47 @@
+/* 1. Espaciado y tamaño de los botones */
+/* Alineamos los botones horizontalmente con Flexbox y ajustamos el espaciado entre ellos */
+.contenedor-botones {
+    display: flex;
+    justify-content: space-around;  /* Espaciado igual entre los botones */
+    margin-top: 20px;
+  }
+  
+  .boton {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    font-size: 16px; /* Tamaño adecuado de la fuente */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    margin: 0 10px; /* Margen para crear espacio entre los botones */
+    border-radius: 12px; /* Bordes redondeados */
+    text-align: center; /* Alinea el texto en el centro del botón */
+  }
+  
+  /* 2. Mejorando la visibilidad de los botones */
+  /* Aumentamos el tamaño de la fuente, cambiamos colores y añadimos efectos visuales */
+  .boton:hover {
+    font-size: 18px; /* Aumenta el tamaño del texto al pasar el ratón */
+    background-color: #4CAF50; /* Color de fondo verde cuando el ratón pasa por encima */
+    color: white; /* Cambia el color del texto al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para hacer el botón más visible */
+  }
+  
+  /* 3. Creando una clase común para botones */
+  /* Aquí, definimos un estilo común que se aplicará tanto a Instagram como a GitHub */
+  .boton {
+    background-color: #3b5998; /* Color de fondo (puedes cambiarlo según el diseño) */
+    color: white; /* Color de texto blanco */
+    font-family: 'Montserrat', sans-serif; /* Usamos la fuente Montserrat */
+    font-weight: 600; /* Peso de la fuente de 600 para hacerla más destacada */
+    border: 2px solid #3b5998; /* Borde del botón */
+    transition: all 0.3s ease; /* Transición suave al hacer hover */
+  }
+  
+  /* 4. Ajustando el espaciado interno de los botones */
+  /* Ya hemos ajustado el padding en la clase .boton para que coincida con el diseño de Figma */
+  .boton {
+    padding: 12px 24px; /* Espaciado interno para que el texto esté centrado y cómodo */
+  }
+  
+  /* 5. Importando y aplicando la fuente correcta */
+  /* Primero importamos la fuente desde Google Fonts y luego la aplicamos a los botones */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  

@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+
+.titulo-destaque {
+    color: #22D4FD; ;
+}
+
+/*
+GUIAS DE UNIDADES
+https://www.aluracursos.com/blog/guia-de-unidades-en-css
+GUIA DE FLEXBOX 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/

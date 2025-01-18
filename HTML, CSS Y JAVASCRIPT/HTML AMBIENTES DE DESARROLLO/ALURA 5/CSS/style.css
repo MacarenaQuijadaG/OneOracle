@@ -1,0 +1,50 @@
+/* 1) Armonía de colores en CSS */
+
+/* El color de fondo de la página será azul (#1E90FF) */
+body {
+    background-color: #1E90FF;  /* Azul como fondo */
+    color: #F6F6F6;  /* Color claro para el texto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Los títulos h1 y h2 tendrán el color amarillo (#FFD700) */
+h1, h2 {
+    color: #FFD700;  /* Amarillo para los títulos */
+}
+
+/* Los párrafos tendrán un color gris oscuro (#808080) */
+p {
+    color: #808080;  /* Gris para los párrafos */
+}
+
+/* Los enlaces tendrán un color amarillo (#FFD700) */
+a {
+    color: #FFD700;  /* Amarillo para enlaces */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Al pasar el cursor sobre el enlace, se subraya */
+a:hover {
+    text-decoration: underline;
+}
+
+/* 2) Identificación y corrección de errores de colores en CSS */
+
+/* Corregimos el color de texto en el pie de página para que sea legible sobre el fondo negro */
+footer {
+    background-color: #000000;  /* Fondo negro para el pie de página */
+    color: #F6F6F6;  /* Texto en blanco para asegurar la legibilidad */
+    text-align: center;
+    padding: 10px;
+}
+
+/* 3) Jugando con colores RGB en CSS */
+
+/* Definimos los colores de fondo y texto utilizando la notación RGB */
+body {
+    background-color: rgb(30, 144, 255);  /* Azul en RGB */
+    color: rgb(246, 246, 246);  /* Texto en color blanco en RGB */
+}

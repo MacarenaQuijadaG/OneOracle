@@ -1,0 +1,92 @@
+/* 1 - Estiliza tú HTML */
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+}
+
+/* 2 - Practicando cómo utilizar el CSS */
+
+/* 1) Creando y vinculando el archivo CSS */
+/* Este código ya está vinculado en el HTML con <link rel="stylesheet" href="style.css"> */
+
+/* 2) Definiendo estilos básicos */
+body {
+    background-color: indigo; /* Fondo índigo */
+    color: white; /* Texto blanco */
+}
+
+/* 3) Estilizando con colores y formatos */
+body {
+    background-color: lightblue; /* Fondo azul claro */
+    color: darkblue; /* Texto azul oscuro */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #2e3d49; /* Título en color oscuro */
+    font-size: 2rem;
+}
+
+p {
+    color: #555; /* Texto gris */
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff6347; /* Botón color naranja */
+    color: white; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500; /* Cambio de color al pasar el ratón */
+}
+
+/* 4) Personalizando la página con CSS */
+header {
+    background-color: darkslategray; /* Encabezado gris oscuro */
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: darkslategray; /* Pie de página gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 5) Aplicando estilos con CSS */
+
+/* Estilo formal */
+body {
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Estilo colorido */
+body {
+    background-color: #ffecb3; /* Fondo amarillo claro */
+    color: #1a237e; /* Texto azul oscuro */
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+/* Estilo minimalista */
+body {
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Texto gris oscuro */
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* 6) Personalizando enlaces */
+a {
+    color: #1e88e5; /* Color azul para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}

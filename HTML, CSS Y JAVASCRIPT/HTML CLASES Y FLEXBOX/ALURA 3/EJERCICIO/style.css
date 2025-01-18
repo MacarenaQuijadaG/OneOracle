@@ -1,0 +1,47 @@
+/* 1. Espaciado y márgenes con Flexbox */
+/* Utilizamos Flexbox para distribuir los elementos de manera equidistante y alinearlos verticalmente.
+   La propiedad justify-content: space-between asegura que los elementos estén separados.
+   El margin: 10% evita que los elementos queden pegados a los bordes de la pantalla. */
+   .presentacion {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente */
+    justify-content: space-between; /* Espacia los elementos de manera equidistante */
+    margin: 10%; /* Añade márgenes para evitar que los elementos queden pegados a los bordes */
+  }
+  
+  /* 2. Definiendo el tamaño de la sección de texto */
+  /* Definimos el ancho de la sección de texto para que coincida con las especificaciones del diseño de Figma */
+  .presentacion__contenido {
+    width: 60%;  /* Ajusta el ancho según el valor extraído de Figma */
+  }
+  
+  /* 3. Ajustando tamaños de títulos y textos */
+  /* Aquí definimos el tamaño de la fuente tanto para el título como para el texto del párrafo */
+  .presentacion__contenido__titulo {
+    font-size: 32px;  /* Ajusta el tamaño del título según Figma */
+  }
+  
+  .presentacion__contenido__texto {
+    font-size: 16px;  /* Ajusta el tamaño del texto según Figma */
+  }
+  
+  /* 4. Importando y aplicando fuentes de Google Fonts */
+  /* Se importan las fuentes "Krona One" para los títulos y "Montserrat" para los textos desde Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+  
+  /* 5. Personalizando fuentes de títulos y textos */
+  /* Aplicamos las fuentes importadas a los elementos de título y texto */
+  .presentacion__contenido__titulo {
+    font-family: 'Krona One', sans-serif; /* Fuente para el título */
+  }
+  
+  .presentacion__contenido__texto {
+    font-family: 'Montserrat', sans-serif; /* Fuente para el texto */
+  }
+  
+  /* Aseguramos que la imagen no se desborde */
+  .presentacion__imagen {
+    max-width: 100%;
+    height: auto;
+  }
+  
