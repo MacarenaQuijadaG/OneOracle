@@ -1,0 +1,86 @@
+/* 
+  1) Adaptando imágenes para diferentes tamaños de pantalla:
+  Las imágenes deben ocupar el 50% del ancho del contenedor para que se ajusten de manera adecuada.
+  En este caso, añadimos la clase .presentacion__imagen y definimos un ancho relativo.
+*/
+.presentacion__imagen {
+    width: 50%;
+    margin: 10px 0;
+    display: block;
+  }
+  
+  /* 
+    2) Ajustando el diseño para diferentes dispositivos:
+    Usamos la herramienta "Inspeccionar" para simular diferentes tamaños de pantalla. Ajustamos los márgenes y rellenos para que el diseño se vea armonioso en pantallas más pequeñas.
+  */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* 
+    3) Responsividad del contenido de texto:
+    El ancho de la clase .presentacion__contenido se ajusta a un valor relativo (50%) para garantizar que el texto se adapte bien en pantallas más pequeñas.
+  */
+  .presentacion__contenido {
+    width: 50%;
+    margin: 20px auto;
+    padding: 1rem;
+  }
+  
+  /* 
+    4) Mejorando la responsividad de los enlaces de navegación:
+    Los enlaces deben ser ajustados a un valor relativo para que funcionen correctamente en pantallas más pequeñas.
+    Cambiamos el ancho de la clase .presentacion__enlaces__link a 50% para mejorar su presentación.
+  */
+  .presentacion__enlaces__link {
+    display: inline-block;
+    width: 50%; /* Aseguramos que los enlaces ocupen el 50% del espacio disponible */
+    padding: 10px;
+    text-align: center;
+    background-color: #555;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  /* 
+    Responsividad general utilizando media queries para pantallas más pequeñas
+  */
+  @media (max-width: 720px) {
+    .presentacion__imagen {
+      width: 100%; /* En pantallas más pequeñas, las imágenes ocuparán todo el ancho disponible */
+    }
+  
+    .presentacion__contenido {
+      width: 90%; /* El contenido de texto ocupará más espacio en pantallas pequeñas */
+    }
+  
+    .presentacion__enlaces__link {
+      width: 100%; /* Los enlaces ocuparán el 100% del espacio disponible */
+      margin-bottom: 10px;
+    }
+  }
+  

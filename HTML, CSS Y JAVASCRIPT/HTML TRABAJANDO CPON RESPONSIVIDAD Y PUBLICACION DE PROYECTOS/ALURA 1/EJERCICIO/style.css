@@ -1,0 +1,67 @@
+/* 
+  1) Adaptando el cuerpo del texto a unidades relativas (REM):
+  Se cambió el font-size de px a rem para mejorar la adaptabilidad del sitio según las configuraciones del navegador.
+  Fuente: https://developer.mozilla.org/es/docs/Web/CSS/rem
+*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem; /* Rem en lugar de px (16px) para mayor flexibilidad */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 
+    2) Convirtiendo píxeles a rem en CSS:
+    Todos los tamaños de fuente se han cambiado de píxeles a rem, tomando como base 1rem = 16px.
+    Ejemplo: 24px -> 1.5rem (24px / 16px).
+    Fuente: https://css-tricks.com/rem-vs-em/
+  */
+  h1 {
+    font-size: 2.25rem; /* 36px -> 2.25rem */
+  }
+  
+  h2 {
+    font-size: 1.75rem; /* 28px -> 1.75rem */
+  }
+  
+  p {
+    font-size: 1.125rem; /* 18px -> 1.125rem */
+  }
+  
+  /* 
+    3) Mejorando la responsividad de un sitio web:
+    Verifica cómo se adapta el texto en diferentes configuraciones de tamaño de fuente desde las opciones del navegador.
+    Fuente: https://developer.mozilla.org/es/docs/Web/CSS/viewport
+  */
+  header, section, footer {
+    padding: 1rem;
+  }
+  
+  /* 
+    4) Ajustando el CSS para diferentes tamaños de fuente:
+    Después de probar la responsividad, es necesario ajustar márgenes, rellenos y tamaños de fuente para una experiencia óptima.
+    Este estilo asegura que el sitio sea legible en diferentes tamaños de texto y pantallas.
+    Fuente: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+  */
+  header {
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  section {
+    margin: 2rem auto;
+    max-width: 900px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* 
+    Asegúrate de probar el sitio en diferentes configuraciones de tamaño de fuente para ver cómo el diseño se adapta de acuerdo con el tamaño de texto.
+  */
+  
