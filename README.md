@@ -6,7 +6,7 @@
 ## 2. Curso ChatGPT
    - **Desafío Problema de Lógica**
    - **Desafío Resumiendo Texto**
-   - **Desafío Analizando Sentimientos**
+   - **Desafío Analizando Sentimientos** 
    - **Desafíos de Preguntas Prompt**
 
 ## 3. Curso Git
