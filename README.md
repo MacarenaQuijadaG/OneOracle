@@ -1,6 +1,6 @@
 # One Oracle 
 
-## 1. Curso Challenge
+## 1. Curso Challenge 
    - **Desafío Amigo Secreto**
 
 ## 2. Curso ChatGPT
