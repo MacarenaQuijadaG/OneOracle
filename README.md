@@ -12,7 +12,7 @@
 ## 3. Curso Git
 
 ## 4. HTML, CSS y JavaScript
-   - **Ambientes de Desarrollo**
+   - **Ambientes de Desarrollo** 
    - **Clases y Flexbox**
    - **Header, Footer y Variables en CSS**
    - **Trabajando con Responsividad y Publicación de Proyectos**
