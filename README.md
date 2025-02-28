@@ -8,8 +8,10 @@
    - **Desafío Resumiendo Texto**
    - **Desafío Analizando Sentimientos** 
    - **Desafíos de Preguntas Prompt**
-   - 
+
 ## 3. Curso Git
+   - **Crear Repocitorio**
+   - **Subir Proyecto**
 
 ## 4. HTML, CSS y JavaScript
    - **Ambientes de Desarrollo** 
