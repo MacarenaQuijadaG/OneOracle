@@ -9,7 +9,7 @@
    - **Desafío Analizando Sentimientos** 
    - **Desafíos de Preguntas Prompt**
 
-## 3. Curso Git
+## 3. Curso Git 
    - **Crear Repocitorio**
    - **Subir Proyecto**
 
